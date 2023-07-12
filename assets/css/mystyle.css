@@ -1,3 +1,11 @@
+@import url(fontawesome-all.min.css);
+@import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
+
+/*
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2388,7 +2396,7 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 8em 0;
+			margin: 0 0 2em 0;
 			width: 100%;
 		}
 
@@ -3254,7 +3262,7 @@ input, select, textarea {
 		}
 
 		#nav ul {
-			margin: 10;
+			margin: 0;
 			padding: 0;
 			list-style: none;
 		}
@@ -3326,12 +3334,10 @@ input, select, textarea {
 /* Main */
 
 	#main {
+		background-color: #ffffff;
 		color: #636363;
-		border-radius: 7em;
+		border-radius: 0.2em;
 	}
-    img{
-        padding: 100px; 
-      }
 
 		#main input, #main select, #main textarea {
 			color: #636363;
@@ -3559,25 +3565,24 @@ input, select, textarea {
 		}
 
 		#main table thead {
-			border-bottom-color: #8cc9f0;
+			border-bottom-color: #dddddd;
 		}
 
 		#main table tfoot {
-			border-top-color: #8cc9f0;
+			border-top-color: #dddddd;
 		}
 
 		#main table.alt tbody tr td {
-			border-color: #8cc9f0;
+			border-color: #dddddd;
 		}
 
 		#main .spotlight .image {
-			border-color: #8cc9f0;
+			border-color: #dddddd;
 		}
-    
 
 		#main > .main {
 			padding: 5em 5em 3em 5em ;
-			border-top: solid 1px 
+			border-top: solid 1px #dddddd;
 		}
 
 			#main > .main:first-child {
@@ -3587,10 +3592,10 @@ input, select, textarea {
 			#main > .main > .image.main:first-child {
 				margin: -5em 0 5em -5em;
 				width: calc(100% + 10em);
-				border-top-right-radius: 2em;
-				border-top-left-radius: 2em;
-				border-bottom-right-radius: 2;
-				border-bottom-left-radius: 2;
+				border-top-right-radius: 0.25em;
+				border-top-left-radius: 0.25em;
+				border-bottom-right-radius: 0;
+				border-bottom-left-radius: 0;
 			}
 
 				#main > .main > .image.main:first-child img {
@@ -3697,12 +3702,12 @@ input, select, textarea {
 
 		#footer .copyright {
 			width: 100%;
-			margin: 5em 0 2em 0;
+			margin: 2.5em 0 2em 0;
 			font-size: 0.8em;
 			text-align: center;
 		}
 
-		@media screen and (max-width: 200px) {
+		@media screen and (max-width: 1280px) {
 
 			#footer {
 				padding: 4em 4em 2em 4em ;
@@ -3755,12 +3760,13 @@ input, select, textarea {
 
 		}
 
-        Wrapper */
+/* Wrapper */
 
 	#wrapper {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		margin: 0 auto;
+        margin-bottom: 12em;
 	}
 
 		@media screen and (max-width: 480px) {
